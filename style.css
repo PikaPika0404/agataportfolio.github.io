@@ -1,0 +1,161 @@
+body {
+  box-sizing: border-box;
+  font-family: "Times New Roman", "Courier New", monospace;
+  color: #000000;
+  margin: 0;
+}
+
+/* Här finns all styling för knappen */
+.button {
+  background-color:	#0077B5;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'system-ui', cursive;
+}
+
+/* Här är styling som gäller för alla rubriker och texter */
+h1 {
+  margin: 20px;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+
+/* Här är styling för about-me sektionen */
+.about-me {
+  background-color:	#021e2d;
+  padding: 150px 30px;
+  color: rgb(249, 250, 251);
+  text-align: center;
+}
+
+/* Här är styling för bilden som ligger i about-me sektionen */
+.about-me img {
+  width: 180px;
+  border-radius: 0px;
+  border: 5px solid #ffffff;
+  padding: 10px;
+}
+
+/* Här är styling för greatness sektionen */
+.greatness {
+  padding: 150px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.header-background {
+  text-align: center;
+  background: linear-gradient(rgba(204, 237, 240, 0.7), rgba(4, 44, 54, 0.9)), 
+                url("https://i.imgur.com/Q4MSppq.jpeg") center center fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(204, 237, 240, 0.7);
+  padding: 15px 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Lägg about, portolio etc på rad  */
+nav ul li {  
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'system-ui', cursive;
+  font-size: 1.2rem;
+}
+.header-content img {
+  max-width: 250px;
+  border-radius: 50%;
+}
+.header-content h1, .header-content p {
+  margin: 0.5rem 0;
+  font-family: 'Unica One', cursive;
+}
+
+#about {
+  background-color: rgba(204, 237, 240, 0.7); 
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 40px;
+  border-radius: 0.5%;
+  text-align: center;
+}
+
+#portfolio {
+  background-color: rgba(204, 237, 240, 0.7); 
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 40px;
+  border-radius: 0.5%;
+  text-align: center;
+}
+.project {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000000;
+  margin: 10px;
+  display: inline-block;
+  line-height: 200px;
+}
+#contact { 
+  padding: 15px;
+  border-radius: 0.5%;
+  text-align: center;
+}
+.td-btn {
+  padding: 12px 36px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+   background-color: #0fbfbf; 
+
+}
+
+footer {
+  background-color: #021e2d;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #f6f8f7;
+  transition: color 0.2s ease-in-out;
+}
+
